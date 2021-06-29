@@ -1,5 +1,5 @@
 {
-  "name": "@aravindmetku/my-npm-registry",
+  "name": "@aravindmetku/npm-registry-testbed",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "publishConfig": {
      "@aravindmetku:registry": "https://npm.pkg.github.com"
    },
+  "repository": "git://github.com/aravindmetku/npm-registry-testbed.git",
   "author": "",
   "license": "ISC"
 }

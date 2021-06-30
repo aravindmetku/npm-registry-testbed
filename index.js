@@ -1,6 +1,8 @@
-module.exports = {
-	run() {
-		console.log("this is new npm package working")
-		return "working"
-	}
+function run() {
+	console.log("this is new npm package working")
+	return "working"
+}
+
+export {
+	run
 }

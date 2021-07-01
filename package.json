@@ -7,9 +7,12 @@
     "test": "exit 0"
   },
   "publishConfig": {
-     "@aravindmetku:registry": "https://npm.pkg.github.com"
-   },
+    "@aravindmetku:registry": "https://npm.pkg.github.com"
+  },
   "repository": "git://github.com/aravindmetku/npm-registry-testbed.git",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "semantic-release": "^17.4.4"
+  }
 }

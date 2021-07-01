@@ -9,10 +9,16 @@
   "publishConfig": {
     "@aravindmetku:registry": "https://npm.pkg.github.com"
   },
+  "release": {
+    "getLastRelease": "last-release-git"
+  },
   "repository": "git://github.com/aravindmetku/npm-registry-testbed.git",
   "author": "",
   "license": "ISC",
   "dependencies": {
     "semantic-release": "^17.4.4"
+  },
+  "devDependencies": {
+    "last-release-git": "0.0.3"
   }
 }

@@ -10,7 +10,8 @@
     "@aravindmetku:registry": "https://npm.pkg.github.com"
   },
   "release": {
-    "getLastRelease": "last-release-git"
+    "getLastRelease": "last-release-git",
+    "branches": ["master", "next", "feature/**"]
   },
   "repository": "git://github.com/aravindmetku/npm-registry-testbed.git",
   "author": "",

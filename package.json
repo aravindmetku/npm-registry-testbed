@@ -11,7 +11,8 @@
   },
   "release": {
     "getLastRelease": "last-release-git",
-    "branches": ["master", "next", "feature/**"]
+    "branches": ["master", "next", "feature/**"],
+    "debug": true
   },
   "repository": "git://github.com/aravindmetku/npm-registry-testbed.git",
   "author": "",
